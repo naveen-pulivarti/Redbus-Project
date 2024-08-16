@@ -11,18 +11,7 @@ The **REDBUS Project** focuses on providing real-time bus route information thro
 4. **Interactive Application:** Develops a dynamic web application that allows users to filter and view bus route information based on different criteria.
 5. **Streamlit App:** The application is named **EASYBUS - Data Scraping and Filtering Application**, designed to offer an intuitive and interactive user experience.
 
-## Overview
 
-This project focuses on extracting real-time bus route data using Selenium, followed by data processing with pandas and storage in a MySQL database. A dynamic Streamlit web application is then developed to allow users to filter and view bus route information based on various criteria, providing an interactive and user-friendly experience. 
-- The streamlit application is called:
-- EASYBUS - Data Scraping and Filtering Application
-
-
-## Features
-- **Data Scraping:** Automatically extracts bus route details, including pricing, availability, and ratings.
-- **Data Cleaning:** Processes and cleans the scraped data to ensure accuracy and usability.
-- **Data Storage:** Stores cleaned data in a MySQL database.
-- **Interactive Web Application:** Provides a web-based interface for users to filter and view bus data.
 
 ## How It Works
 1. **Data Extraction:**
