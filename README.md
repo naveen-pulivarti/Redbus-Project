@@ -51,5 +51,6 @@ This project focuses on extracting real-time bus route data using Selenium, foll
 - 	Clean and process the data.
 - 	Store the data in the MySQL database.
 5. Run the Streamlit Application:
-  	streamlit run path/to/your/Home.py
+  	```bash
+   streamlit run path/to/your/Home.py
 
