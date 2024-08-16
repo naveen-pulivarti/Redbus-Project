@@ -2,8 +2,7 @@
 
 
 ## Overview
-
-The **REDBUS Project** focuses on providing real-time bus route information through a comprehensive process:
+This project focuses on extracting real-time bus route data using Selenium, followed by data processing with pandas and storage in a MySQL database. A dynamic Streamlit web application is then developed to allow users to filter and view bus route information based on various criteria, providing an interactive and user-friendly experience. This project focuses on providing real-time bus route information through a comprehensive process:
 
 1. **Data Extraction:** Utilizes Selenium to scrape real-time bus route data from various sources.
 2. **Data Processing:** Employs pandas to process and clean the extracted data, ensuring accuracy and relevance.
