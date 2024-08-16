@@ -14,10 +14,10 @@ This project focuses on extracting real-time bus route data using Selenium, foll
 ## How It Works
 1. **Data Extraction:**
    - **Routes Extraction:** Extracts routes and links for buses from multiple states.
-   - **Bus Details Extraction:** Scrapes detailed information about buses from the extracted routes.
+   - **Bus Details Extraction:** Scrapes detailed information about all the buses from each and every extracted route.
 
 2. **Data Processing:**
-   - **DataFrame Creation and Cleaning:** Combines and cleans the data into a structured format using pandas.
+   - **DataFrame Creation and Cleaning:** Combines and cleans the data into a structured format using pandas by integrating sources and data cleaning.
    - **Data Storage:** Saves the processed data into a MySQL database for persistence and easy retrieval.
 
 3. **Web Application:**
@@ -40,7 +40,7 @@ This project focuses on extracting real-time bus route data using Selenium, foll
 - `.gitignore`: Specifies files and directories to be ignored by Git.
 - `README.md`: Project overview and instructions (this file).
 
-## Installation
+## How to Run
 1. Clone the repository.
 2. Create and activate a virtual environment:
    ```bash
