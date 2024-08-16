@@ -5,7 +5,6 @@ Data Scraping &amp; Streamlit App for Bus Routes : This project involves scrapin
 
 
 
-# REDBUS_PROJECT
 
 ## Overview
 This project involves scraping bus data using Selenium, cleaning it with pandas, and visualizing it interactively with a Streamlit application.
