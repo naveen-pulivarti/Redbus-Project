@@ -1,8 +1,8 @@
-# REDBUS_PROJECT
+# REDBUS_PROJECT ##Data Scraping and Filtering Application
 
 ## Overview
 
-Data Scraping &amp; Streamlit App for Bus Routes : This project involves scraping real-time bus route data using Selenium, processing it with pandas, and storing it in a MySQL database. An interactive Streamlit web app is built to filter and display bus information based on user-selected criteria.
+This project focuses on extracting real-time bus route data using Selenium, followed by data processing with pandas and storage in a MySQL database. A dynamic Streamlit web application is then developed to allow users to filter and view bus route information based on various criteria, providing an interactive and user-friendly experience.
 
 
 
