@@ -5,18 +5,20 @@ Data Scraping &amp; Streamlit App for Bus Routes : This project involves scrapin
 
 
 
+# REDBUS_PROJECT
+
 ## Overview
 This project involves scraping bus data using Selenium, cleaning it with pandas, and visualizing it interactively with a Streamlit application.
 
 ## Directory Structure
-- `env/`: Virtual environment (not included in GitHub).
-- `Red_bus/`: Streamlit application code.
-- `Final codes.ipynb`: Jupyter Notebook for data scraping and cleaning.
+- `streamlit app/`: Contains the Streamlit application code.
+- `SCRAPE_CLEAN_STORE_code.ipynb`: Jupyter Notebook for data scraping and cleaning.
 - `requirements.txt`: Project dependencies.
+- `.gitignore`: Specifies files and directories to be ignored by Git.
+- `README.md`: Project overview and instructions (this file).
 
 ## Installation
 1. Clone the repository.
 2. Create and activate a virtual environment:
    ```bash
    python -m venv env
-
