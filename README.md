@@ -5,8 +5,8 @@
 ## Overview
 
 This project focuses on extracting real-time bus route data using Selenium, followed by data processing with pandas and storage in a MySQL database. A dynamic Streamlit web application is then developed to allow users to filter and view bus route information based on various criteria, providing an interactive and user-friendly experience. 
-The streamlit application is called:
-EASYBUS - Data Scraping and Filtering Application
+- The streamlit application is called:
+- EASYBUS - Data Scraping and Filtering Application
 
 
 ## Features
