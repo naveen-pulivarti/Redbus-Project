@@ -9,6 +9,8 @@ This project focuses on extracting real-time bus route data using Selenium, foll
 3. **Database Storage:** Saves the processed data into a MySQL database for efficient retrieval and management.
 4. **Interactive Application:** Develops a dynamic web application that allows users to filter and view bus route information based on different criteria.
 5. **Streamlit App:** The application is named **EASYBUS - Data Scraping and Filtering Application**, designed to offer an intuitive and interactive user experience.
+<img src="images/logo.png" width="100" height="auto" />
+
 
 
 
