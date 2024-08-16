@@ -4,7 +4,7 @@ import streamlit as st
 def configure_page():
     st.set_page_config(
         page_title="Easy Bus", 
-        page_icon="C:/Users/saina/OneDrive/Desktop/logo.png", 
+        page_icon="../images/logo.png", 
         layout='wide'
     )
 
@@ -12,7 +12,7 @@ def configure_page():
 def display_home_page():
     col1, col2, col3 = st.columns([1, 2, 2])
     with col2:
-        st.image("C:/Users/saina/OneDrive/Desktop/logo.png", width=470)
+        st.image("../images/logo.png", width=470)
     
     c1, c2, c3 = st.columns([1, 4, 1])
     with c2:
