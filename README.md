@@ -38,7 +38,7 @@ This project focuses on extracting real-time bus route data using Selenium, foll
 
 ## Directory Structure
 - `streamlit app/`: Contains the Streamlit application code.
-- `SCRAPE_CLEAN_STORE_code.ipynb`: Jupyter Notebook for data scraping and cleaning.
+- `bus_data_pipeline.ipynb`: Jupyter Notebook for data scraping and cleaning.
 - `requirements.txt`: Project dependencies.
 - `.gitignore`: Specifies files and directories to be ignored by Git.
 - `README.md`: Project overview and instructions (this file).
@@ -49,7 +49,7 @@ This project focuses on extracting real-time bus route data using Selenium, foll
    ```bash
    python -m venv env
 3. Install Dependencies from requirements.txt
-4. Run the codes in SCRAPE_CLEAN_STORE_code.ipynb and populate the database:
+4. Run the codes in bus_data_pipeline.ipynb and populate the database:
 - 	Extract bus route data.
 - 	Clean and process the data.
 - 	Store the data in the MySQL database.
