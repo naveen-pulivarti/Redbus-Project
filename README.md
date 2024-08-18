@@ -39,7 +39,7 @@ This project focuses on extracting real-time bus route data using Selenium, foll
 ## Directory Structure
 - `streamlit app/`: Contains the Streamlit application code.
 - `bus_data_pipeline.ipynb`: Jupyter Notebook for data scraping and cleaning.
-- `pre_scraped_bus_data.csv`: CSV file containing pre-scraped data.
+- `prescraped_bus_data.csv`: CSV file containing pre-scraped data.
 - `requirements.txt`: Project dependencies.
 - `.gitignore`: Specifies files and directories to be ignored by Git.
 - `README.md`: Project overview and instructions (this file).
@@ -58,7 +58,7 @@ This project focuses on extracting real-time bus route data using Selenium, foll
 - 	Store the data in the MySQL database.
 
    Option 2: Use the Provided CSV File**
--  Download the CSV file `scraped_bus_data.csv` from the project directory.
+-  Download the CSV file `prescraped_bus_data.csv` from the project directory.
 -  Import the CSV file into your MySQL database.
   
 5. Run the Streamlit Application:
