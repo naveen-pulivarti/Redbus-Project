@@ -9,20 +9,20 @@ def connect_to_database():
         host="localhost",
         user="root",
         password="12345678",
-        database="redbusschema"
+        database="redbus_project"
     )
 
 
 def get_city_list(con):
     """Retrieve distinct 'from' and 'to' locations from the database."""
-    df_locations = pd.read_sql("SELECT DISTINCT `from`, `to` FROM easy_bus_data", con)
+    df_locations = pd.read_sql("SELECT DISTINCT `from`, `to` FROM the_bus_data", con)
     city_list = list(df_locations['from']) + list(df_locations['to'])
     return list(set(city_list))  # Remove duplicates
 
 
 def build_query(min_seats, min_rating, min_price, max_price, from_location, to_location, categories, ac_checkbox, non_ac_checkbox,sort_options):
     """Build the SQL query based on user inputs."""
-    query = "SELECT * FROM easy_bus_data WHERE 1=1"
+    query = "SELECT * FROM the_bus_data WHERE 1=1"
     
     if min_seats > 0:
         query += f" AND seats_available >= {min_seats}"
