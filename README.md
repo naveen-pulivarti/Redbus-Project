@@ -69,11 +69,11 @@ Notes:
 Ensure that the database name is redbusschema and the table name is easy_bus_data for the Streamlit application to work correctly.
 
 ## Screenshots
-### 1. Search Bus Page
-![Search Bus Page](./screenshots/Searchbus_page.png)
-
-### 2. Home Page
+### Home Page
 ![Home Page](./screenshots/Home_page.png)
 
-### 3. Filters
-![Filters](./screenshots/Filters.png)
+### Search Bus Page
+![Search Bus Page](./screenshots/Searchbus_page.png)
+
+### All filters
+![Filters](./screenshots/Filters.png){ width=400px height=300px }
