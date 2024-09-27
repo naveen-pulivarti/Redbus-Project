@@ -76,4 +76,4 @@ Ensure that the database name is redbusschema and the table name is easy_bus_dat
 ![Search Bus Page](./screenshots/Searchbus_page.png)
 
 ### All filters
-![Filters](./screenshots/Filters.png){ width=400px height=300px }
+<img src="./screenshots/Filters.png" alt="Filters" width="400" height="300">
